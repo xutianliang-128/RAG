@@ -1,6 +1,5 @@
 """
 Main program entry point
-Classifies each utterance as Public Comment, Public Hearing, or Neither
 """
 import os
 import json
@@ -13,7 +12,7 @@ from utterance_classifier import UtteranceClassifier
 def main():
     """Main function"""
     print("=" * 60)
-    print("Meeting Transcript RAG System - Public Comments & Hearings Extraction")
+    print("Meeting Transcript RAG System - PublicSpeak 2.0")
     print("=" * 60)
     
     # 1. Load data
